@@ -43,7 +43,9 @@
             }
 
             .title {
+                padding: 0 0 20px;
                 font-size: 84px;
+                line-height: 1;
             }
 
             .subtitle {
@@ -70,6 +72,32 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            .sponcer-links {
+                display: flex;
+                flex-direction: column;
+                padding: 40px 40px 0;
+            }
+
+            .sponcer-links>a {
+                display: inline-block;
+                min-width: 200px;
+                padding: 10px 15px;
+                border-radius: 4px;
+                background: #636b6f;
+                font-size: 13px;
+                color: #fefefe;
+                text-decoration: none;
+                transition: all 0.15s ease;
+            }
+
+            .sponcer-links>a:hover {
+                background: #f4645f;
+            }
+
+            .sponcer-links>a+a {
+                margin-top: 20px;
+            }
         </style>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143018844-1"></script>
@@ -91,6 +119,10 @@
                 <h1 class="subtitle m-b-md"> Laravel JP Conference 2020<br /> 2020/03/21@Tamachi Granpark Conference<br /> coming soon.. </h1>
                 <div class="links">
                     <a href="https://twitter.com/laraveljpcon">Twitter</a>
+                </div>
+                <div class="sponcer-links">
+                    <a href="https://docs.google.com/document/d/1kcbHYiP_N4K8qJ2v4P2LxavJaGmHNjMugdItYOOOh0A/edit#">スポンサー 概要</a>
+                    <a href="https://fortee.jp/laravel-jp-conference-2020/sponsor/form">スポンサー申込フォーム</a>
                 </div>
             </div>
         </div>
